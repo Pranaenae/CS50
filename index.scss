@@ -18,6 +18,8 @@ a{
 img{
     width: 100%;
 }
+
+/* navbar */
 .navbar{
     height: 50px;
     color: white;
@@ -25,6 +27,40 @@ img{
 }
 
 .container{
-    max-width:400px;
+    max-width: 700px;
     margin: 0 auto;
+}
+
+/* Search part */
+
+input[type="submit"]{
+    max-width: 250px;
+    font-size: 17px;
+}
+
+input[type="text"]{
+    border-radius: 15px;
+    font-size: 18px;
+    border-color: rgb(236, 233, 233);
+    height: 50px;
+}
+
+input[type="text"]:hover{
+    box-shadow: 0 0px 2px 1px rgb(168, 167, 167);
+}
+
+input[type="text"]:focus{
+    outline: none;
+}
+    
+.sb{
+    height: 50px;
+    margin: 20px auto;
+}
+
+/* Utilities*/
+.btn {
+    border: none;
+    margin: 10px;
+    background-color: rgb(245, 243, 243);
 }
